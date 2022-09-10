@@ -1,0 +1,8 @@
+.circlePointer{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(235, 167, 108, 0.8);
+    border-radius: 50%;
+    position: fixed;
+    z-index: 110;
+}

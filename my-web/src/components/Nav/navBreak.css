@@ -1,0 +1,9 @@
+@media all and (max-width: 640px){
+    .ham span{
+        margin-right: 3em;
+    }
+
+    .logo svg{
+        margin-left: 3em;
+    }
+}

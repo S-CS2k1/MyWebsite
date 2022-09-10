@@ -1,0 +1,17 @@
+@media all and (max-width: 640px){
+    .about{
+        flex-direction: column;
+    }
+    .aboutHeading{
+        width: 100%;
+        height: 30%;
+    }
+    .aboutHeading span{
+        margin-top: 0.5em;
+    }
+    .details{
+        width: 100%;
+        height: 70%;
+        align-items: space-around;
+    }
+}

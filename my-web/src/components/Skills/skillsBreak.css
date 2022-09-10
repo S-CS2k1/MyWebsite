@@ -1,0 +1,71 @@
+@media all and (max-width: 1122px){
+    .skills{
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+    }
+    .skills .skillsDescription{
+        width: 100%;
+        height: 40%;
+        /* background-color: aquamarine; */
+    }
+    .skills .skillsDisplay{
+        width: 100%;
+        height: 60%;
+        /* background-color: black; */
+    }
+    .skillsDescription, .skillsDisplay{
+        width: 100%;
+        height: 50%;
+    }
+    .display{
+        flex-direction: column;
+        /* border-left: none; */
+    }
+    .display .overflow{
+        flex-direction: column;
+        /* background-color: aqua; */
+        width: 90%;
+        height: 100%;
+    }
+    .overflow span:nth-of-type(3){
+        top: 105%;
+        left: 90%;
+    }
+    .overflow span:nth-of-type(2){
+        top: 105%;
+        left: 45%;
+    }
+    .overflow span:nth-of-type(1){
+        top: 105%;
+        left: 5%;
+    }
+    .overflow div{
+        height: 25px;
+        align-self: flex-start;
+        margin-left: 2em;
+    }
+    .overflow .JS{
+        width: 55vw;
+    }
+    
+    .overflow .Java{
+        width: 60vw;
+    }
+    
+    .overflow .Cpp{
+        width: 50vw;
+    }
+    
+    .overflow .Python{
+        width: 30vw;
+    }
+    
+    .overflow .CSS{
+        width: 65vw;
+    }
+    
+    .overflow .MDB, .overflow .mysql{
+        width: 45vw;
+    }
+}
